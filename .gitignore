@@ -1,0 +1,16 @@
+multi-source-retail-data-684b168166c6.json
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
+*.swp
+*.swo
