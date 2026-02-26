@@ -263,6 +263,7 @@ Total Duration: 12.34 seconds
 ### Launch the dashboard
 ```bash
 streamlit run streamlit_app.py
+python -m streamlit run streamlit_app.py
 ```
 
 ### Dashboard Pages

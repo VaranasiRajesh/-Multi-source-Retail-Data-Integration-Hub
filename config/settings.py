@@ -10,10 +10,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ─── Google Cloud / BigQuery ───────────────────────────────────────────
-GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID", "multi-source-retail-data")
+GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID", "")
 GOOGLE_APPLICATION_CREDENTIALS = os.getenv(
     "GOOGLE_APPLICATION_CREDENTIALS",
-    "multi-source-retail-data-684b168166c6.json"
+    ""
 )
 BQ_DATASET = os.getenv("BQ_DATASET", "retail_dw")
 
